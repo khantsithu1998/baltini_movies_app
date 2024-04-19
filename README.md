@@ -7,6 +7,8 @@
 
 ---
 
+![image](https://github.com/khantsithu1998/baltini_movies_app/blob/main/src/markdown-images/mobile-view.jpg)
+
 ### Overview:
 I have successfully completed the assigned project as per the outlined requirements. Below is a detailed report of the completed tasks and the approach taken to fulfill each requirement.
 
