@@ -60,7 +60,6 @@ I have successfully completed the assigned project as per the outlined requireme
 - Maintained a well-structured file organization promoting modularity and separation of concerns.
 - Implemented a skeleton loader for dynamic data loading.
 - Utilized TypeScript for static typing.
-- Included unit tests for code reliability and stability.
 
 ### Extra Milestones Achieved:
 - Attained Lighthouse Performance score above 85.
