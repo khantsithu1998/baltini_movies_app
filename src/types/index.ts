@@ -2,7 +2,7 @@ export type SearchResult = {
   Search: Movie[];
   totalResults: string;
   Response: string;
-  nextPage? : number
+  nextPage?: number;
 };
 
 export type Movie = {
@@ -79,7 +79,7 @@ export type MediaCoverImage = {
 };
 export type AnimeTitle = {
   romaji: string;
-  english : string;
+  english: string;
 };
 
 export type AnimePageInfo = {
@@ -88,4 +88,12 @@ export type AnimePageInfo = {
   lastPage: number;
   hasNextPage: boolean;
   perPage: number;
+};
+
+export type AnimeDetailsResult = {
+  data: AnimeDetailsData;
+};
+
+export type AnimeDetailsData = {
+  Media: AnimeMedia;
 };

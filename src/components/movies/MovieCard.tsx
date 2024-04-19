@@ -47,7 +47,7 @@ function MovieCard({
           </div>
           <div className="hidden place-content-center absolute top-0 h-full aspect-video bg-blue group-hover/card:grid group-hover/card:bg-black group-hover/card:bg-opacity-50 text-white z-10">
             <button
-              onClick={() => openModal(movie.imdbID)}
+              onClick={() => openModal(movie.imdbID, false)}
               className="h-8 p-2 grid place-content-center"
             >
               Show more

@@ -3,17 +3,19 @@ import { AnimatePresence } from "framer-motion";
 import { ModalContext } from "../../context/ModalContext";
 import { createPortal } from "react-dom";
 import { ModalContent } from "./ModalContent";
-import { MovieDetails } from "../../types";
+import { AnimeMedia, MovieDetails } from "../../types";
+import { AnimeModalContent } from "./AnimeModalContent";
 
 function Modal() {
-  const { closeModal, modalStatus, loading, error, details } =
-    useContext<{
-      closeModal : any,
-      modalStatus  : any,
-      loading : boolean,
-      error : boolean,
-      details : MovieDetails
-    }>(ModalContext);
+  const { closeModal, modalStatus, loading, error, isSuccess, details, animeDetails } = useContext<{
+    closeModal: any;
+    modalStatus: any;
+    loading: boolean;
+    isSuccess : boolean;
+    error: boolean;
+    details: MovieDetails;
+    animeDetails : AnimeMedia;
+  }>(ModalContext);
   const modalContainer = document.getElementById(
     "modalContainer"
   ) as HTMLElement;
@@ -25,7 +27,7 @@ function Modal() {
 
   return (
     <AnimatePresence>
-      {modalStatus.open ? (
+      {modalStatus.open && modalStatus.isAnime === false ? (
         <>
           {createPortal(
             <ModalContent
@@ -33,6 +35,21 @@ function Modal() {
               loading={loading}
               error={error}
               details={details}
+            />,
+            modalContainer
+          )}
+        </>
+      ) : null}
+
+      {modalStatus.open && modalStatus.isAnime ? (
+        <>
+          {createPortal(
+            <AnimeModalContent
+              onClose={close}
+              loading={loading}
+              error={error}
+              isSuccess={isSuccess}
+              details={animeDetails}
             />,
             modalContainer
           )}

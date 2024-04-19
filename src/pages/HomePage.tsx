@@ -30,7 +30,6 @@ function HomePage({
     const res = await fetch(endpoint);
     const data = await res.json();
 
-    // Assuming the API provides pagination information
     return {
       ...data,
       nextPage: data.Search.length > 0 ? pageParam + 1 : null,
