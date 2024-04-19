@@ -7,6 +7,7 @@ import {
   IconTv,
 } from "../../resources/svg/nav/IconsNav";
 import { Link, NavLink } from "react-router-dom";
+import avatar from "../../resources/images/avatar.jpeg";
 
 function Header() {
   return (
@@ -55,14 +56,8 @@ function Header() {
                 )}
               </NavLink>
             </div>
-            <div className="grid place-items-center h-7 md:h-8">
-              <div className="h-7 md:h-8 lg:h-10 aspect-w-1 aspect-h-1 border-2 border-white rounded-full overflow-hidden">
-                <img
-                  src="https://avatars.githubusercontent.com/u/25413000?v=4"
-                  alt=""
-                  className="object-cover w-full h-full"
-                />
-              </div>
+            <div className="grid place-content-center h-7 md:h-8">
+              <img className="w-10 h-10 rounded-full" src={avatar} alt="" />
             </div>
           </nav>
         </div>
