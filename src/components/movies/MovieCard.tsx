@@ -36,7 +36,6 @@ function MovieCard({
           <img
             src={movie.Poster}
             alt=""
-            loading="lazy"
             className="w-full aspect-video object-cover rounded-lg selection:bg-transparent"
           />
           <div
