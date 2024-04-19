@@ -75,8 +75,8 @@ For any queries or additional information, feel free to contact me.
 
 Thank you.
 
-[Your Name]  
-[Your Contact Information]
+Khant Si Thu
+khantsithu.work@gmail.com
 ```
 
 Let me know if there's anything else you'd like to add or modify!
