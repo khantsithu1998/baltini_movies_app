@@ -1,46 +1,82 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Assignment Completion Report
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Title: Baltini - React Movie App
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Overview:
+I have successfully completed the assigned project as per the outlined requirements. Below is a detailed report of the completed tasks and the approach taken to fulfill each requirement.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+### 1. Build simple Movie app using React.js from the OMDB API:
+- Utilized the OMDB API to fetch movie data.
+- Implemented functionalities to display movie lists, detailed movie information, and the user's saved movie list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Requirement Page:
+- Developed three main pages: Movie List, Detail Movie, and My List Movie.
 
-### `npm run build`
+### 3. Create React App & Mobile-first SPA:
+- Built the project using Create React App.
+- Ensured mobile-first design approach for responsiveness across devices.
+- Implemented single page application (SPA) functionality for seamless navigation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. Movie List Page:
+- Designed a Movie List page showcasing movie names, types, years, and images.
+- Enabled navigation to the Detail Movie page upon clicking a movie.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 5. Detail Movie Page:
+- Displayed detailed movie information based on the API response.
+- Incorporated functionality to add or remove movies from the user's list.
+- Ensured that saved movies do not appear in the movie list.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 6. My List Movie Page:
+- Created a page to display the user's saved movies with relevant details.
+- Implemented navigation to a detailed view of each movie.
+- Enabled users to remove movies from their list, with persistent storage even after page reloads.
 
-### `npm run eject`
+### 7. Responsive Design:
+- Ensured a responsive layout for the Movie List and My List Movie pages.
+- Displayed movie cards in a grid format with appropriate column configurations based on device viewport size.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 8. Infinite Scroll Pagination:
+- Implemented pagination using Infinite Scroll without external plugins.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 9. Navbar with Search Bar:
+- Integrated a navbar containing a search bar for easy movie exploration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 10. Repository & Deployment:
+- Provided hosted project repository on [GitHub](https://github.com/khantsithu1998/baltini_movies_app).
+- Deployed the web app to [Vercel](https://baltini-movies-app.vercel.app/) for seamless access.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Additional Implementations:
+- Incorporated React Functional Components (Hooks), React Context, and React Router as per requirements.
+- Utilized React Query for efficient data fetching.
+- Implemented styling using Tailwind CSS.
+- Achieved a Lighthouse Performance score of at least 70.
+- Maintained a well-structured file organization promoting modularity and separation of concerns.
+- Implemented a skeleton loader for dynamic data loading.
+- Utilized TypeScript for static typing.
+- Included unit tests for code reliability and stability.
 
-## Learn More
+### Extra Milestones Achieved:
+- Attained Lighthouse Performance score above 85.
+- Implemented GraphQL functionality for Anime List as per additional requirement.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Conclusion:
+The completion of this project demonstrates adherence to the specified requirements and additional enhancements to ensure optimal functionality and user experience. The deployed web app is available for review and further testing.
+
+For any queries or additional information, feel free to contact me.
+
+Thank you.
+
+[Your Name]  
+[Your Contact Information]
+```
+
+Let me know if there's anything else you'd like to add or modify!
