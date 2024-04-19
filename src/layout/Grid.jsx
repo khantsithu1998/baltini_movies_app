@@ -6,7 +6,7 @@ function Grid ({ children, title }) {
       <div className='w-full'>
         <h1 className='text-xl font-light tracking-wide'>{title}</h1>
       </div>
-      <div className='grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+      <div className='grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
         {children}
       </div>
     </article>
