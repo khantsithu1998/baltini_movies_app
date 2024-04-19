@@ -3,7 +3,7 @@ import { Grid } from "../layout/Grid";
 import { MovieCard } from "../components/movies/MovieCard";
 import { API_ENDPOINTS, SEARCH_ENDPOINTS } from "../utils/constants";
 import { useSearch } from "../hooks/useSearch";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { FaSpinner } from "react-icons/fa";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import React from "react";
