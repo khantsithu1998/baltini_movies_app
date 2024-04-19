@@ -65,7 +65,7 @@ I have successfully completed the assigned project as per the outlined requireme
 ### Extra Milestones Achieved:
 - Attained Lighthouse Performance score above 85.
 - Implemented GraphQL functionality for Anime List as per additional requirement.
-
+- This is *[Lighthouse Report](https://www.webpagetest.org/result/240419_AiDcG1_DY1/)*.
 ---
 
 ### Conclusion:
